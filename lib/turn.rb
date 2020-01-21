@@ -38,3 +38,9 @@ def turn(board)
       turn(board)
     end 
 end
+
+
+board = ["X"," "," "," "," "," "," "," "," "]
+puts "Welcome to Tic Tac Toe!"
+puts display_board(board)
+turn(board)
